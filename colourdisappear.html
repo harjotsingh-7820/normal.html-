@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .container{
+            border: 2px ;
+            height: 500px;
+            width: 300px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;            
+            background-color: aquamarine;
+
+        }
+        .subcontainer{
+            width: 100%;
+            border: 0px solid;
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            color: rgb(175, 175, 175);
+            transition: 0.5s ease-out;
+            /* background-color: white; */
+            background: linear-gradient(#ffffff00, #ffffff00);
+        }
+        .container:hover .subcontainer{
+            transition: 0.5s ease-out;
+            background: linear-gradient(#ffffff00,#ffffff,#ffffff,#ffffff,#ffffff);
+            color:black;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <h1>Harjot</h1>
+            <p>World is mine</p>
+        </div>
+    </div>
+    
+</body>
+</html>
